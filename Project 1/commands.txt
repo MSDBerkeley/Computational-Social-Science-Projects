@@ -1,0 +1,446 @@
+Usuario@DESKTOP-3J6NQIV MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+'HERENCIA VL Dropbox'/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+ MicrosoftEdgeBackups/
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{90f87930-53de-11ee-a7b6-bdd5f79c655c}.TM.blf
+ NTUSER.DAT{90f87930-53de-11ee-a7b6-bdd5f79c655c}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{90f87930-53de-11ee-a7b6-bdd5f79c655c}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Videos/
+ Zotero/
+ anaconda3/
+ newdir/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~
+$ cd Documents
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents
+$ cd Codes
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes
+$ cd Git
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ git clone ^[[200~https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git~
+Cloning into 'Computational-Social-Science-Projects.git~'...
+fatal: protocol '?[200~https' is not supported
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ git clonehttps://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+git: 'clonehttps://github.com/MSDBerkeley/Computational-Social-Science-Projects.git' is not a git command. See 'git --help'.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ git clone https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ ls
+Computational-Social-Science-Projects/
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ cd Computational-Social-Science-Projects
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ nano readme.md -Is this working?
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ nano readme.md -
+Reading data from keyboard; type ^D or ^D^D to finish.
+Is this working?
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ nano readme.md
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git add .
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git commit -m "Added two lines to the README.md file"
+[main 5a3069a] Added two lines to the README.md file
+ 1 file changed, 2 insertions(+)
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git push
+fatal: unable to connect to cache daemon: Unknown error
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+   ce6c147..5a3069a  main -> main
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git pull
+Already up to date.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git checkout -b new_branch
+Switched to a new branch 'new_branch'
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git switch new_branch
+Switched to branch 'new_branch'
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git push
+fatal: The current branch new_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin new_branch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git push -u origin new_branch
+fatal: unable to connect to cache daemon: Unknown error
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'new_branch' on GitHub by visiting:
+remote:      https://github.com/MSDBerkeley/Computational-Social-Science-Projects/pull/new/new_branch
+remote:
+To https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+ * [new branch]      new_branch -> new_branch
+branch 'new_branch' set up to track 'origin/new_branch'.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ ^C
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git status
+On branch new_branch
+Your branch is up to date with 'origin/new_branch'.
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ nano readme.md -
+Reading data from keyboard; type ^D or ^D^D to finish.
+- Trying changes from the branch (v.1)
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git status
+On branch new_branch
+Your branch is up to date with 'origin/new_branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git push
+fatal: unable to connect to cache daemon: Unknown error
+Everything up-to-date
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git pull
+Your configuration specifies to merge with the ref 'refs/heads/new_branch'
+from the remote, but no such ref was fetched.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git switch main
+Switched to branch 'main'
+M       README.md
+Your branch is up to date with 'origin/main'.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git pull
+Already up to date.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git checkout -b Primera Rama
+fatal: 'Rama' is not a commit and a branch 'Primera' cannot be created from it
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git checkout -b new_branch
+fatal: a branch named 'new_branch' already exists
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git swicth new_branch
+git: 'swicth' is not a git command. See 'git --help'.
+
+The most similar command is
+        switch
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git switch new_branch
+Switched to branch 'new_branch'
+M       README.md
+Your branch is up to date with 'origin/new_branch'.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ nano README.md -
+Reading data from keyboard; type ^D or ^D^D to finish.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git status
+On branch new_branch
+Your branch is up to date with 'origin/new_branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git add .
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git push
+fatal: unable to connect to cache daemon: Unknown error
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'new_branch' on GitHub by visiting:
+remote:      https://github.com/MSDBerkeley/Computational-Social-Science-Projects/pull/new/new_branch
+remote:
+To https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+ * [new branch]      new_branch -> new_branch
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git status
+On branch new_branch
+Your branch is up to date with 'origin/new_branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git commit -m "Adding a branch and modifying README on the branch"
+[new_branch 053974e] Adding a branch and modifying README on the branch
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git push
+fatal: unable to connect to cache daemon: Unknown error
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 374 bytes | 374.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MSDBerkeley/Computational-Social-Science-Projects.git
+   5a3069a..053974e  new_branch -> new_branch
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git status
+On branch new_branch
+Your branch is up to date with 'origin/new_branch'.
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 917 bytes | 229.00 KiB/s, done.
+From https://github.com/MSDBerkeley/Computational-Social-Science-Projects
+   5a3069a..16d4730  main       -> origin/main
+Already up to date.
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (new_branch)
+$ git switch main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git pull
+Updating 5a3069a..16d4730
+Fast-forward
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ mkdir Project 1
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd Project 1
+bash: cd: too many arguments
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd Code
+bash: cd: Code: No such file or directory
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd ..
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ mkdir Project 1
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ ls
+1/  Computational-Social-Science-Projects/  Project/
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git
+$ cd Computational-Social-Science-Projects
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ ls
+1/  Project/  README.md
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ mkdir Project 1
+mkdir: cannot create directory ‘Project’: File exists
+mkdir: cannot create directory ‘1’: File exists
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd ^C
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd ^[[200~
+bash: cd: $'\E[200~': No such file or directory
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd Computational-Social-Science
+bash: cd: Computational-Social-Science: No such file or directory
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ mkdir "Project 1"
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ ls
+ 1/   Project/  'Project 1'/   README.md
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd Project 1
+bash: cd: too many arguments
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects (main)
+$ cd "Project 1"
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects/Project 1 (main)
+$ touch commands.txt
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects/Project 1 (main)
+$ nano commands
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects/Project 1 (main)
+$ nano w commands.txt
+
+Usuario@DESKTOP-3J6NQIV MINGW64 ~/Documents/Codes/Git/Computational-Social-Science-Projects/Project 1 (main)
+$
+
